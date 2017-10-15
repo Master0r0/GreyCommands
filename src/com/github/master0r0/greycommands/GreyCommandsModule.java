@@ -1,8 +1,7 @@
 package com.github.master0r0.greycommands;
 
-import com.github.master0r0.greycommands.Commands.HelpCommand;
-import com.github.master0r0.greycommands.Commands.LeaveCommand;
 import com.github.master0r0.greycommands.Listeners.MessageListener;
+import com.github.master0r0.greycommands.Registry.Commands.CommandRegistry;
 import sx.blah.discord.api.IDiscordClient;
 import sx.blah.discord.modules.IModule;
 
@@ -20,9 +19,7 @@ public class GreyCommandsModule implements IModule {
         this.client = iDiscordClient;
         client.getDispatcher().registerListener(listener);
         GreyCommands.logger.info("Commands Module Started!");
-
-        GreyCommands.getCommandRegistry().registerCommand(new LeaveCommand());
-        GreyCommands.getCommandRegistry().registerCommand(new HelpCommand());
+        new CommandRegistry();
         return true;
     }
 
