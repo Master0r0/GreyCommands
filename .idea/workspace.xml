@@ -8,15 +8,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a95ff575-6704-4373-bd09-d46f57a2f09c" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/artifacts/GreyCommands.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/GreyCommands.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/artifacts/GreyWolfBotCommandsModule_jar.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/GreyWolfBotCommandsModule_jar.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/github/master0r0/greycommands/Commands/HelpCommand.java" afterPath="$PROJECT_DIR$/src/com/github/master0r0/greycommands/Commands/HelpCommand.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/github/master0r0/greycommands/GreyCommands.java" afterPath="$PROJECT_DIR$/src/com/github/master0r0/greycommands/GreyCommands.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/github/master0r0/greycommands/GreyCommandsModule.java" afterPath="$PROJECT_DIR$/src/com/github/master0r0/greycommands/GreyCommandsModule.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/github/master0r0/greycommands/Registry/Commands/BaseCommand.java" afterPath="$PROJECT_DIR$/src/com/github/master0r0/greycommands/Registry/Commands/BaseCommand.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/github/master0r0/greycommands/Registry/Commands/CommandExecutor.java" afterPath="$PROJECT_DIR$/src/com/github/master0r0/greycommands/Registry/Commands/CommandExecutor.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/github/master0r0/greycommands/Registry/Commands/CommandRegistry.java" afterPath="$PROJECT_DIR$/src/com/github/master0r0/greycommands/Registry/Commands/CommandRegistry.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -79,7 +71,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CommandExecutor.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="CommandExecutor.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/github/master0r0/greycommands/Registry/Commands/CommandExecutor.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="198">
@@ -87,6 +79,16 @@
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="17">
+              <caret line="1" column="81" lean-forward="false" selection-start-line="1" selection-start-column="81" selection-end-line="1" selection-end-column="81" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -140,6 +142,7 @@
         <option value="$PROJECT_DIR$/src/com/github/master0r0/greycommands/Registry/Commands/CommandRegistry.java" />
         <option value="$PROJECT_DIR$/src/com/github/master0r0/greycommands/GreyCommandsModule.java" />
         <option value="$PROJECT_DIR$/src/com/github/master0r0/greycommands/Registry/Commands/CommandExecutor.java" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -603,6 +606,14 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="81" lean-forward="false" selection-start-line="1" selection-start-column="81" selection-end-line="1" selection-end-column="81" />
+          <folding />
         </state>
       </provider>
     </entry>
