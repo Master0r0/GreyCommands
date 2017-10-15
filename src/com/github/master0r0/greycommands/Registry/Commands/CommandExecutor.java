@@ -32,7 +32,6 @@ public class CommandExecutor {
     public static boolean runGuildOnly(MessageReceivedEvent evt, BaseCommand command, String[] args){
         for(IRole role : evt.getAuthor().getRolesForGuild(evt.getGuild())){
             for(Permissions perm : role.getPermissions()){
-                GreyCommands.logger.info(evt.getAuthor().getName());
                 if(perm.ordinal() == command.requiredPermission().getPermNum() || evt.getAuthor().getName().equals(GreyCommands.getSuperuser())){
                     if(command.execute(evt, args))
                         return true;

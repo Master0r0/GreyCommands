@@ -1,9 +1,5 @@
 package com.github.master0r0.greycommands.Registry.Commands;
 
-import com.github.master0r0.greycommands.Commands.HelpCommand;
-import com.github.master0r0.greycommands.Commands.LeaveCommand;
-import com.github.master0r0.greycommands.GreyCommands;
-
 import java.util.HashMap;
 import java.util.Map;
 
@@ -13,10 +9,7 @@ public class CommandRegistry {
     private Map<String,String> alias = new HashMap<>();
 
     public CommandRegistry(){
-        GreyCommands.getCommandRegistry().registerCommand(new LeaveCommand());
-        GreyCommands.getCommandRegistry().registerCommand(new HelpCommand());
 
-        GreyCommands.getCommandRegistry().registerAlias(GreyCommands.getCommandRegistry().getCommands().get("leave"),"exit");
     }
 
     public void registerCommand(BaseCommand command){

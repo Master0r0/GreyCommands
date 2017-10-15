@@ -29,7 +29,7 @@ public class HelpCommand extends BaseCommand {
                         for (Permissions perm : role.getPermissions()) {
                             if (GreyCommands.getCommandRegistry().getCommands().get(cmd).requiredPermission().getPermNum() == perm.ordinal()) {
                                 found = true;
-                                if(GreyCommands.getCommandRegistry().getCommands().get(cmd).getHelp()!="")
+                                if(!GreyCommands.getCommandRegistry().getCommands().get(cmd).getHelp().equals(""))
                                     help.append(String.format("!%s: %s\n", cmd, GreyCommands.getCommandRegistry().getCommands().get(cmd).getHelp()));
                             }
                             if(found)

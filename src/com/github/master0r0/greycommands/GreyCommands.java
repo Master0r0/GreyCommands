@@ -17,12 +17,6 @@ public class GreyCommands {
         return commandRegistry;
     }
 
-    public static void getCommands(){
-        for(String cmd : getCommandRegistry().getCommands().keySet()){
-            logger.info(cmd);
-        }
-    }
-
     public static PermissionRegistry getPermissionRegistry() {
         return permissionRegistry;
     }
