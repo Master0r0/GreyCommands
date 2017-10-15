@@ -11,7 +11,10 @@ public class CommandExecutor {
         if(GreyCommands.getCommandRegistry().getCommands().containsKey(cmd)){
             BaseCommand command = GreyCommands.getCommandRegistry().getCommands().get(cmd);
             if(command.guildOnly()){
-                runGuildOnly(evt, command, args);
+                if(evt.getGuild()!=null)
+                    runGuildOnly(evt, command, args);
+                else
+                    evt.getAuthor().getOrCreatePMChannel().sendMessage("You can only use this command from a server");
             }else{
                 runGlobal(evt, command, args);
             }
@@ -20,7 +23,10 @@ public class CommandExecutor {
             if(GreyCommands.getCommandRegistry().getCommands().containsKey(alias)){
                 BaseCommand command = GreyCommands.getCommandRegistry().getCommands().get(alias);
                 if(command.guildOnly()){
-                    runGuildOnly(evt, command, args);
+                    if(evt.getGuild()!=null)
+                        runGuildOnly(evt, command, args);
+                    else
+                        evt.getAuthor().getOrCreatePMChannel().sendMessage("You can only use this command from a server");
                 }else{
                     runGlobal(evt, command, args);
                 }
