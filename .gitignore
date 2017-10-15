@@ -1,0 +1,9 @@
+
+/out/
+/target/
+/lib/
+/META-INF/
+/GreyWolfBotCommandsModule.iml
+/.idea/
+/__artifacts_temp/
+/src/META-INF/
